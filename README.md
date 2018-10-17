@@ -9,7 +9,18 @@ def hi():
     print('hi')
 ```
 
-math $\sum$
+inline:
+
+ $\sum_i \sum_j$
+
+block:
 $$
-\sum_{i=1}^n = {n(n+1)\over 2}
+\sum_{i=1}^n = {n(n+1)\over 2}\\
+\sum_i \sum_j
 $$
+
+
+
+
+
+

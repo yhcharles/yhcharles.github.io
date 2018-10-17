@@ -19,27 +19,11 @@
       markdown: {
         latexRender: katex.renderToString.bind(katex)
       }
-
-            /*
-      plugins: [
-        function (hook) {
-          hook.beforeEach(function (content) {
-            //console.log(content);
-            ret = content.replace(/\$\$([\s\S]*?)\$\$/g, function (m, code) {
-              return katex.renderToString(code, {displayMode: true})
-            }).replace(/\$([\s\S]*?)\$/g, function (m, code) {
-              return katex.renderToString(code)
-            })
-            //console.log(ret);
-            return ret;
-          })
-        }
-      ]*/
     }
   </script>
+  <!--script src="./docsify_marked_katex.min.js"></script-->
   <script src="./docsify.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
-  <!--script src="marked_katex.js"></script-->
 </body>
 </html>
