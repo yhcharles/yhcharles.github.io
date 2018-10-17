@@ -9,41 +9,37 @@
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
   <link rel="stylesheet" href="//unpkg.com/katex/dist/katex.min.css">
 </head>
+  <script src="//unpkg.com/katex/dist/katex.min.js"></script>
 <body>
   <div id="app">Loading...</div>
   <script>
     window.$docsify = {
       name: 'test main page',
       repo: '',
+      markdown: {
+        latexRender: katex.renderToString.bind(katex)
+      }
+
+            /*
       plugins: [
         function (hook) {
           hook.beforeEach(function (content) {
-            return content.replace(/\$\$([\s\S]*?)\$\$/g, function (m, code) {
-              if (typeof MathJax !== 'undefined') {
-                MathJax.Hub.Queue(["Typeset", MathJax.Hub])
-              }
-              return code
+            //console.log(content);
+            ret = content.replace(/\$\$([\s\S]*?)\$\$/g, function (m, code) {
+              return katex.renderToString(code, {displayMode: true})
+            }).replace(/\$([\s\S]*?)\$/g, function (m, code) {
+              return katex.renderToString(code)
             })
+            //console.log(ret);
+            return ret;
           })
         }
-      ]
+      ]*/
     }
   </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="./docsify.js"></script>
   <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
   <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
-  <script type="text/x-mathjax-config">
-    MathJax.Hub.Config({
-      extensions: ["tex2jax.js"],
-      jax: ["input/TeX", "output/HTML-CSS"],
-      tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-        processEscapes: true
-      },
-      "HTML-CSS": { availableFonts: ["TeX"] }
-    });
-  </script>
-  <script src="//cdn.bootcss.com/mathjax/2.6.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  <!--script src="marked_katex.js"></script-->
 </body>
 </html>
