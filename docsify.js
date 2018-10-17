@@ -1540,13 +1540,16 @@ Renderer.prototype.latex = function(text, block=false) {
   try {
     if (marked.defaults.latexRender) {
       var html_math = [];
-      for(let t of text.split('\n')){
-        html_math.push(marked.defaults.latexRender(t));
-      }
       if (block) {
+        for(let t of text.split('\n')){
+          html_math.push(marked.defaults.latexRender(t, {displayMode: true}));
+        }
         let html = html_math.join('<br>')
         out = '<div style="text-align:center">' + html + '</div>';
       }else{
+        for(let t of text.split('\n')){
+          html_math.push(marked.defaults.latexRender(t));
+        }
         let html = html_math.join('\n')
         out = html;
       }
