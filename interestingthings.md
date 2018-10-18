@@ -1,0 +1,104 @@
+# some interesting things
+
+(started on 2017-12-06)
+
+# AI gaming
+
+https://www.aigaming.com/
+AIgaming.com is a platform that allows computer programs - also known as bots, to play each other at challenging games to win bitcoin.
+
+# Top developer tools 2017
+
+https://stackshare.io/posts/top-developer-tools-2017
+
+- https://github.com/localstack/localstack a local AWS stack
+- https://github.com/deepgram/kur descriptive deep learning
+- https://github.com/wallix/awless golang aws client
+
+# interesting command lines
+
+https://codeandunicorns.com/interesting-command-lines/
+
+Example:
+- Capture video Macbook webcam with cpu accelerated: `ffmpeg -f avfoundation -framerate 30 -video_size 1280x720 -pix_fmt uyvy422 -i "0" -c:v h264_videotoolbox -profile:v high -b:v 3M -color_range 1 /tmp/out.mp4`
+- play video through Facebook live
+
+# 30 amazing python project in 2017
+
+https://medium.mybridge.co/30-amazing-python-projects-for-the-past-year-v-2018-9c310b04cdb3
+
+1. https://github.com/google/python-fire Python Fire is a library for automatically generating command line interfaces (CLIs) from absolutely any Python object.
+3. https://github.com/Qix-/better-exceptions Pretty and more helpful exceptions in Python, automatically.![](https://github.com/Qix-/better-exceptions/raw/master/screenshot.png)
+
+# A VIM-inspired filemanager for the console
+
+https://github.com/ranger/ranger
+
+# AI
+
+- https://github.com/SerpentAI/SerpentAI
+Game Agent Framework. Helping you create AIs / Bots to play any game you own! BETA http://serpent.ai
+
+# Data visualization
+
+- Of course you can use matplotlib, seaborn, Bokeh, etc.
+Here is a list and comparison: https://blog.modeanalytics.com/python-data-visualization-libraries/
+
+- https://plot.ly/products/dash/
+Dash is a Python framework for building analytical web applications. No JavaScript required.
+
+# Data processing visualization
+
+Luna is a data processing and visualization environment built on a principle that people need an immediate connection to what they are building. It provides an ever-growing library of highly tailored, domain specific components and an extensible framework for building new ones.
+
+http://www.luna-lang.org/#Overview
+
+# Browser automation
+
+There're Selenium, python requests package. And someone combines them together: https://github.com/cryzed/Selenium-Requests
+
+Now a new one:
+https://github.com/MechanicalSoup/MechanicalSoup
+
+# Online Python editor
+
+https://www.jdoodle.com/python3-programming-online
+
+## Blender
+
+Blender is a free and open source 3D creation suite.
+https://docs.blender.org/manual/en/dev/getting_started/about/introduction.html
+
+And it has python API.
+https://docs.blender.org/api/2.79/info_quickstart.html#
+
+Domino effect in Blender Python
+http://slicker.me/blender/domino.htm
+
+## Webpage layout
+
+https://blog.buildo.io/flexview-the-easiest-way-to-use-flex-with-react-c698db55926a
+
+How to implement complex layout in webpages?
+
+Very old times: html `<table>` elements
+Old times: use CSS, and many frameworks like Bootstrap and Foundation were based on float elements.
+Present: [CSS flexbox API.](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
+Future: Maybe the [CSS grid API](https://developer.mozilla.org/en-US/docs/Web/CSS/grid)?
+
+## 一些中文翻译文档
+
+pandas: 
+https://www.gitbook.com/book/wizardforcel/pandas-official-tut-zh/details
+
+来自apachecn:
+* [TensorFlow R1.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030122)
+* [sklearn 0.18 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030181)
+* [sklearn 0.19 中文文档](http://sklearn.apachecn.org/cn/0.19.0/tutorial/statistical_inference/settings.html)
+* [Spark 2.2.0 中文文档](http://spark.apachecn.org/docs/cn/2.2.0/)
+* [Spark 2.0.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=2883613)
+* [Kudu 1.4.0 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10813594)
+* [Zeppelin 0.7.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=10030467)
+* [Elasticsearch 5.4 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=4260364)
+* [Kibana 5.2 中文文档](http://cwiki.apachecn.org/pages/viewpage.action?pageId=8159377)
+* [Storm 1.1.0 中文文档](http://storm.apachecn.org/releases/cn/1.1.0/)

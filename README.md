@@ -1,26 +1,4 @@
-# Headline
+# chy的个人博客
 
-> An awesome project.
-
-code `hi`
-
-```python
-def hi():
-    print('hi')
-```
-
-inline:
-
- $\sum_i \sum_j$
-
-block:
-$$
-\sum_{i=1}^n = {n(n+1)\over 2}\\
-\sum_i \sum_j
-$$
-
-
-
-
-
-
+之前的文章在：
+http://blog.csdn.net/yhcharles
