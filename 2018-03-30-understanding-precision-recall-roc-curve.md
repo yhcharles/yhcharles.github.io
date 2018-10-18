@@ -4,7 +4,7 @@ For classification problems in machine learning, some classifiers usually output
 
 There are [many different metrics](https://en.wikipedia.org/wiki/Precision_and_recall) to evaluate the performance according to the score distribution. Here I try to make some of them more clear:
 
-![](/assets/precision_recall.svg)
+![](./assets/precision_recall.svg)
 
 There're two triangles in the graph. The left one represents all condition positive samples. And the right one represents all condition negative samples.
 

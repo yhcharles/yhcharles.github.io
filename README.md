@@ -1,4 +1,5 @@
-# chy的个人博客
+# chy's blog
 
-之前的文章在：
-http://blog.csdn.net/yhcharles
+Charlie Yan (chy)'s blog
+
+一些旧的文章在：http://blog.csdn.net/yhcharles
