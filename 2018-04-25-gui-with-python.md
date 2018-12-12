@@ -18,6 +18,7 @@
   - also check the issues in this project
 - [remi](https://github.com/dddomodossola/remi)
   - with some built-in widgets, but seems not able to draw on canvas
+  - there is a gui editor: http://remiguieditor--daviderosa.repl.co/
 - [pywebview](https://github.com/r0x0r/pywebview) ([js_api](https://github.com/r0x0r/pywebview/blob/master/examples/js_api.py))
   - integrate a webview in the app window, and interact with it, but in my test, sometimes the window just not show up
 - [flexx](https://github.com/flexxui/flexx)

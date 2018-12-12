@@ -24,6 +24,16 @@ while True:
     proc.stdin.flush()
 ```
 
+Another simpler version by using the `sh` library:
+
+```python
+q = queue.Queue()
+sh.Command(original_command, _in=q, _out=sys.stdout, _err=sys.stderr, _fg=True)
+# accept use input, and append to q
+```
+
+
+
 ## Other
 
 - `fire`: https://github.com/google/python-fire, by Google, is a very easy to use library for build command line tools, but not aiming for interactive mode
