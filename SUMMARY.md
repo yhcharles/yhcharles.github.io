@@ -1,5 +1,3 @@
-## List
-
 * [Introduction](README.md)
 * [interesting\_things](interestingthings.md)
 * [2016-06-17 gitbook使用tip](2016-06-17_gitbookshi_yong_tip.md)
@@ -28,6 +26,8 @@
 * [2018-04-25 learn js](2018-04-25-learn-js.md)
 * [2018-04-25 GUI with Python](2018-04-25-gui-with-python.md)
 * [2018-05-02 Nvidia GPU driver error](2018-05-02-nvidia-gpu-driver-error.md)
-
-- [2018-10-18 Python command line tool](2018-10-18-python-commond-line-tool.md)
+* [2018-10-18 Python command line tool](2018-10-18-python-commond-line-tool.md)
+* [2018-10-30 selenium](2018-10-30-selenium.md)
+* [2018-11-21 conda](2018-11-21-conda.md)
+* [2018-11-29 clone virtual machine with activated windows](2018-11-29-clone-virtual-mahine-with-activated-windows.md)
 

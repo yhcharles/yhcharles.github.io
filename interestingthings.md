@@ -7,6 +7,10 @@
 https://www.aigaming.com/
 AIgaming.com is a platform that allows computer programs - also known as bots, to play each other at challenging games to win bitcoin.
 
+https://github.com/M-J-Murray/MAMEToolkit
+
+A Python toolkit used to train reinforcement learning algorithms against arcade games
+
 # Top developer tools 2017
 
 https://stackshare.io/posts/top-developer-tools-2017
@@ -59,6 +63,8 @@ There're Selenium, python requests package. And someone combines them together: 
 
 Now a new one:
 https://github.com/MechanicalSoup/MechanicalSoup
+
+re-use a browser session in selenium: https://web.archive.org/web/20171129014322/http://tarunlalwani.com:80/post/reusing-existing-browser-session-selenium/
 
 # Online Python editor
 
