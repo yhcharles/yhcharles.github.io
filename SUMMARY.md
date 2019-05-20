@@ -30,4 +30,5 @@
 * [2018-10-30 selenium](2018-10-30-selenium.md)
 * [2018-11-21 conda](2018-11-21-conda.md)
 * [2018-11-29 clone virtual machine with activated windows](2018-11-29-clone-virtual-mahine-with-activated-windows.md)
+* [2019-05-20 karabiner](2019-05-20-karabiner.md)
 
