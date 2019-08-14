@@ -20,7 +20,7 @@ proc = subprocess.Popen(original_command,
                        bufsize=0,
                        universal_newlines=True)
 while True:
-	proc.stdin.write(cmd + '\n')
+    proc.stdin.write(cmd + '\n')
     proc.stdin.flush()
 ```
 

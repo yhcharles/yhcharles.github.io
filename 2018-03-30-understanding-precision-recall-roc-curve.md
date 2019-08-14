@@ -18,3 +18,9 @@ Now let's try to move the threshold. If the threshold goes up:
 
 - recall decreases, precision increases, they move to different direction, so the precision-recall curve shows a decreasing fuction, like [these](http://scikit-learn.org/stable/auto_examples/model_selection/plot_precision_recall.html)
 - TPR (or recall) decreases, FPR also decreases, they move to the same direction, so the ROC curve shows a increasing function
+
+
+
+more:
+
+- https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5

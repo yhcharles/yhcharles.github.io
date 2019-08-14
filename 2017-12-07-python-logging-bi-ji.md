@@ -5,7 +5,8 @@
 ```python
 import logging
 logging.basicConfig(
-	format='%(asctime)-15s [%(levelname)s] [%(filename)s:%(lineno)d] %(message)s',  # 格式
+	format='%(asctime)-15s [%(levelname).1s] [%(filename)s:%(lineno)d] %(message)s',  # 格式
+  datefmt='%Y-%m-%d %H:%M:%S',
 	level=logging.DEBUG,  # 生效级别
 	filename='log.txt',  # 写入到文件
 	filemode='w',  # 文件打开方式，默认是'a'
