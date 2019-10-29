@@ -31,4 +31,6 @@
 * [2018-11-21 conda](2018-11-21-conda.md)
 * [2018-11-29 clone virtual machine with activated windows](2018-11-29-clone-virtual-mahine-with-activated-windows.md)
 * [2019-05-20 karabiner](2019-05-20-karabiner.md)
+* [2019-08-23 Python: argparse](2019-08-23-python-argparse.md)
+* [2019-09-20 Python: Pandas tips](2019-09-20-python-pandas-tips.md)
 

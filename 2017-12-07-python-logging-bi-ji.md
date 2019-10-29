@@ -52,3 +52,4 @@ logger.setLevel(logging.DEBUG)
 logger = logging.getLogger(__name__)
 ```
 这样在输出的log前缀中，可以看到当前log来自哪个logger，即来自哪个模块。
+
