@@ -33,4 +33,5 @@
 * [2019-05-20 karabiner](2019-05-20-karabiner.md)
 * [2019-08-23 Python: argparse](2019-08-23-python-argparse.md)
 * [2019-09-20 Python: Pandas tips](2019-09-20-python-pandas-tips.md)
+* [2019-09-24 vscode tips](2019-09-24-vscode-tips.md)
 
