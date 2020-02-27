@@ -44,6 +44,13 @@ child logger的事件会默认propagete给parent logger。因此，一个package
 handler = logging.FileHandler('log.txt')  # 写入到文件
 handler.setFormatter(logging.Formatter('%(asctime)-15s [%(levelname)s] [%(name)-9s] %(message)s'))  # 设置formatter
 
+# Google-like format:
+# I0226 22:25:54.284 /full/file/path:55] message
+logging.Formatter(
+            "%(levelname).1s%(asctime)-13s.%(msecs)d %(pathname)s:%(lineno)d] %(message)s",
+            "%m%d %H:%M:%S",
+        )
+
 logger = logging.getLogger('package_name')
 logger.addHandler(handler)  # 将上面的handler添加到logger中，可以添加多个handler
 logger.setLevel(logging.DEBUG)
