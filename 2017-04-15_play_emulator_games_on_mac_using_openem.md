@@ -14,3 +14,12 @@ Here's how:
 
 
 
+Update 2020-02-29
+
+1. Download OpenEmu v2.2.1 experimental
+2. goto "preference -> Cores", install core for "MAME", now it's "0.217.0"
+3. goto [https://archive.org/search.php?query=-%20mame%20%20%200.217](https://archive.org/search.php?query=- mame   0.217) search for roms matches the version "0.217"
+4. Find the roms, and download any from [https://ia803104.us.archive.org/view_archive.php?archive=/8/items/MAME217RomsOnlyMerged/MAME%200.217%20ROMs%20%28merged%29.zip](https://ia803104.us.archive.org/view_archive.php?archive=/8/items/MAME217RomsOnlyMerged/MAME 0.217 ROMs (merged).zip)
+5. drag the rom into OpenEmu, play
+6. If there's any BIOS file missing, download it and put it in folder `~/Documents/Game Library/roms/Arcade`
+
