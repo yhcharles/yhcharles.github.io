@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/instancing.png-32629f49f39c1486b7b5c1c1538a4a88.stex"
+path="res://.import/dodge_the_creeps.png-f9130a3f05ff508f3957686723f8c19c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://export/web/instancing.png"
-dest_files=[ "res://.import/instancing.png-32629f49f39c1486b7b5c1c1538a4a88.stex" ]
+source_file="res://export_web/dodge_the_creeps.png"
+dest_files=[ "res://.import/dodge_the_creeps.png-f9130a3f05ff508f3957686723f8c19c.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
