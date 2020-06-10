@@ -6,4 +6,4 @@ Charlie Yan (chy)'s blog
 
 Demo:
 
-- [godot demo](/web/1/instancing.html)
+- [godot demo](https://yhcharles.github.io/web/1/instancing.html)
