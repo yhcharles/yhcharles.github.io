@@ -1,12 +1,14 @@
+https://wangdoc.com/ssh/port-forwarding.html
+
 http://www.ruanyifeng.com/blog/2011/12/ssh_port_forwarding.html
 https://www.ibm.com/developerworks/cn/linux/l-cn-sshforward/
 https://www.ssh.com/ssh/tunneling/example (for some extra config)
 
 # Local port forwarding
 
-"Local port forwarding" is mapping a port of local host to a port of remote host.
+"Local port forwarding" is forwarding all the data sent to local port to remote host/port, i.e. mapping a port of local host to a port of remote host.
 
-- Say you want to connect to some host `T` (target). But you cannot connect to it directly. You'll need to first connect to some other host `R` (relay). You can setup a local port forwarding: all data sent to local port `L_PORT` will goes to host `R`, then forwarded to host `T`.
+- Say you want to connect to some host `T` (target). But you cannot connect to it directly. You'll need to first connect to some other host `R` (relay). You can setup a local port forwarding: all data sent to local port `L_PORT` will go to host `R`, then forwarded to host `T`.
 
 ```bash
 $ ssh -N -f -L ${L_PORT}:${T_IP}:${T_PORT} ${R_HOST}
