@@ -17,6 +17,14 @@ https://www.jianshu.com/p/2f44d5b57fe7
 
 https://stackoverflow.com/questions/6029916/how-to-enable-file-sharing-for-my-app
 
+![image-20210126153432414](assets/image-20210126153432414.png)
+
+
+
+## Enable background play
+
+![image-20210126153602754](assets/image-20210126153602754.png)
+
 ## Accesing file on MacOS
 
 For accessing files on MacOS, we need to change the config of xcode project (plist). 
