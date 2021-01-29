@@ -35,7 +35,7 @@
 * [2019-09-20 Python: Pandas tips](2019-09-20-python-pandas-tips.md)
 * [2019-09-24 vscode tips](2019-09-24-vscode-tips.md)
 * [2020-07-04 Godot WebRTC multiplayer](2020-07-04-godot-network.md)
-* [2020-08-06 Flutter tips](2020-08-06-flutter-tips.md)
+* [2020-08-26 Flutter tips](2020-08-26-flutter-tips.md)
 * [2020-11-18 mac exfat](2020-11-18-mac-exfat.md)
 * [2020-12-09 enable mixed content in chrome](2020-12-09-enable-mixed-content-in-chrome.md)
 * [2020-12-31 run windows app in MacOS](2020-12-31-run-windows-app-in-macos.md)
