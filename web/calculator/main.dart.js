@@ -45874,9 +45874,9 @@ $1:function(a){return new G.jA(a,this.a.c,null)},
 $S:267}
 S.ws.prototype={
 J:function(a,b){var s,r=null,q=this.c
-if(q==="\u232b"||q==="."||q==="AC"||q==="%"||q==="+"||q==="-"||q==="\xd7"||q==="\xf7"||q==="\u231e\u231d"||q==="\u03c0"||q==="\u221a"||q==="X^"||q==="ln"||q==="lg"||q==="sin"||q==="cos"||q==="tan"||q==="rad"||q==="deg"||q==="asin"||q==="acos"||q==="atan"||q==="ln2"||q==="e"||q==="("||q===")")s=K.aU(b).x
+if(q==="\u232b"||q==="."||q==="AC"||q==="%"||q==="+"||q==="-"||q==="\xd7"||q==="\xf7"||q==="\u231e\u231d"||q==="\u03c0"||q==="\u221a"||q==="X^"||q==="exp"||q==="ln"||q==="lg"||q==="sin"||q==="cos"||q==="tan"||q==="rad"||q==="deg"||q==="asin"||q==="acos"||q==="atan"||q==="ln2"||q==="e"||q==="("||q===")")s=K.aU(b).x
 else s=q==="="?K.aU(b).k2:r
-return T.ZX(M.eW(C.by,new N.vT(new S.Kr(this),r,r,r,r,r,r,r,r,r,r,r,r,r,L.Qs(q,A.m9(r,r,s,r,r,r,r,r,r,r,r,q==="ln"||q==="lg"||q==="sin"||q==="cos"||q==="tan"||q==="rad"||q==="deg"||q==="asin"||q==="acos"||q==="atan"||q==="ln2"||q==="("||q===")"?18:20,r,r,r,r,!0,r,r,r,r,r,r),r),new V.aQ(0,10,0,10),r,r,C.O,r,!1,r,r,r,r),r,r,r,r,r,r))}}
+return T.ZX(M.eW(C.by,new N.vT(new S.Kr(this),r,r,r,r,r,r,r,r,r,r,r,r,r,L.Qs(q,A.m9(r,r,s,r,r,r,r,r,r,r,r,q==="ln"||q==="lg"||q==="sin"||q==="cos"||q==="tan"||q==="rad"||q==="deg"||q==="asin"||q==="acos"||q==="atan"||q==="ln2"||q==="("||q===")"?18:20,r,r,r,r,!0,r,r,r,r,r,r),r),new V.aQ(0,15,0,15),r,r,C.O,r,!1,r,r,r,r),r,r,r,r,r,r))}}
 S.Kr.prototype={
 $0:function(){var s=this.a
 return s.d.$1$buttonText(s.c)},
