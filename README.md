@@ -12,4 +12,5 @@ Godot demo:
 - [Space Shooter](https://yhcharles.github.io/web/2/SpaceShooter.html)
 - [Othello](https://yhcharles.github.io/web/othello/othello.html)
 - [MineSweeper](https://yhcharles.github.io/web/minesweeper/minesweeper.html)
+- Mancala:https://yhcharles.github.io/web/mancala/index.html
 
