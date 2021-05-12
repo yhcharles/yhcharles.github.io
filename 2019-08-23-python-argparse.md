@@ -116,3 +116,45 @@ $ python argparse_action.py --version
 argparse_action.py 1.0
 ```
 
+
+
+```python
+parser.add_argument('--int_arg', type=int)  # typing
+parser.add_argument('position_arg')  # positional args
+parser.add_argument('--multiple_arg', nargs='+')  # a list of args, if nargs is *, it can take 0 or more args ??? need to verify
+
+```
+
+
+
+## Run another program with args
+
+If you want to start another program with args:
+
+```python
+ap = argparse.ArgumentParser(allow_abbrev=False)  # https://stackoverflow.com/a/56640098/6526184
+ap.add_argument('--a1')
+ap.add_argument('command-line', nargs=argparse.REMAINDER)
+ap.parse_args('other_program -a b c --a1 d e'.split())
+```
+
+This is still not perfect, e.g:
+
+```python
+ap = argparse.ArgumentParser(allow_abbrev=False)  # https://stackoverflow.com/a/56640098/6526184
+ap.add_argument('--a1')
+ap.add_argument('--a2', nargs='*')  # this will "eat" the remainder args
+ap.add_argument('command-line', nargs=argparse.REMAINDER)
+ap.parse_args('other_program -a b c --a1 d e'.split())
+```
+
+So, the best choice might be use the `--` delimiter:
+
+```python
+ap = argparse.ArgumentParser()
+ap.add_argument('--a1')
+ap.add_argument('--a2', nargs='*')  # this will "eat" the remainder args
+ap.add_argument('command-line', nargs=argparse.REMAINDER)
+ap.parse_args('--a1 --a2 -- other_program -a b c --a1 d e'.split())  # note the -- as delimiter
+```
+

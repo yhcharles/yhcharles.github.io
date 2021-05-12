@@ -4,6 +4,7 @@
 - iterable实现`__iter()__`接口，调用`iter(iterable_obj)`的时候，返回一个iterator对象
 - iterator也实现`__iter()__`接口，从而iterator也是iterable的，一般返回self
 - for语句接受的是iterable对象，然后自动调用iter()函数得到一个iterator对象，在循环体中再自动调用next()获取iterator的元素或者停止循环
+- iterator类似一个指针，或者C++中的iterator，可以被迭代；iterable一般指一个容器，是“可以被迭代访问（其中的元素）的”
 
 # iterator
 
@@ -21,7 +22,7 @@ iterable object顾名思义就是“可以迭代的对象”，即可以用`for 
 > **iterable**
  An object capable of returning its members one at a time. Examples of iterables    include all sequence types (such as list, str, and tuple) and some non-sequence types like dict, file objects, and objects of any classes you define with an `__iter__()` method or with a `__getitem__()` method that implements Sequence semantics.
 > 一个能够每次返回其一个成员的对象。例如，所有的序列类型（list, str和tuple），还有一些非序列类型，如dict, file对象，以及所有定义了`__iter__()`方法，或者定义了`__getitem__()`方法并实现了Sequence语义的类。
- 
+
 > Iterables can be used in a for loop and in many other places where a sequence is needed (zip(), map(), …). When an iterable object is passed as an argument to the built-in function iter(), it returns an iterator for the object. This iterator is good for one pass over the set of values. When using iterables, it is usually not necessary to call iter() or deal with iterator objects yourself. The for statement does that automatically for you, creating a temporary unnamed variable to hold the iterator for the duration of the loop. See also iterator, sequence, and generator.
 > iterable可以被用在for循环中，以及其他很多使用序列的地方（zip(), map(), ...）。当iterable对象被当做参数，调用内建函数iter()时，会得到一个iterator对象。这个iterator对象适合用来对集合中的值进行一次遍历，注意是一次性的。在使用iterable时，通常不必调用iter()来获得iterator对象。for语句会自动生成一个临时的iterator对象用于循环过程。
 
