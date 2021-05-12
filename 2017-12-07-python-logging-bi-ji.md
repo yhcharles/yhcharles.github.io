@@ -54,6 +54,11 @@ handler.setFormatter(logging.Formatter(
         )
 )
 
+# or:
+#            "%(levelname).1s%(asctime)s.%(msecs)03d000 %(process)d "
+#            "%(filename)s:%(lineno)d] %(message)s",
+
+      
 logger = logging.getLogger('package_name')
 logger.addHandler(handler)  # 将上面的handler添加到logger中，可以添加多个handler
 logger.setLevel(logging.DEBUG)
