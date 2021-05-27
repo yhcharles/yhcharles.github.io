@@ -46,3 +46,25 @@ func2
 - If there's no  `__init__.py` in folder pkg1, then the above command won't work.
 - **relative imports can be used only inside packages, scripts can't import relative**, that's why we need to run m2 as a module in a package
 
+
+
+## import search order
+
+https://docs.python.org/3/tutorial/modules.html#the-module-search-path
+
+Python search for module in the above order.
+
+### What will happen if same module name in different path?
+
+E.g, we have two directories with same package name: `/path1/p/a/b/c` and `/path2/p/x/y/z`
+
+And `sys.path=['/path1', '/path2']`, when we can `import p.a` but not `import p.x`
+
+The idea is: Python will search for package `p` first, and find it in `/path1`, so `import p.x` won't work.
+
+
+
+## current imported modules
+
+`sys.modules` keeps record or currently imported modules, a mapping from module name to path
+
