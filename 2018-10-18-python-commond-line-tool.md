@@ -39,3 +39,8 @@ sh.Command(original_command, _in=q, _out=sys.stdout, _err=sys.stderr, _fg=True)
 - `fire`: https://github.com/google/python-fire, by Google, is a very easy to use library for build command line tools, but not aiming for interactive mode
 - `sh`: https://amoffat.github.io/sh/, works the reverse way -- turn a command into a python function
 
+## References
+- **click** library: 
+  - tutorial: https://zhuanlan.zhihu.com/p/96935131
+  - doc: official: https://click.palletsprojects.com/en/8.0.x/utils/, zh: https://click-docs-zh-cn.readthedocs.io/zh/latest/advanced.html
+
