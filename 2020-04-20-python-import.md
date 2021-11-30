@@ -68,3 +68,47 @@ The idea is: Python will search for package `p` first, and find it in `/path1`, 
 
 `sys.modules` keeps record or currently imported modules, a mapping from module name to path
 
+
+
+## Import binding
+
+https://docs.python.org/3/reference/import.html
+
+> The [`import`](https://docs.python.org/3/reference/simple_stmts.html#import) statement combines two operations; it searches for the named module, then it binds the results of that search to a name in the local scope. 
+
+**Import Statement**: https://docs.python.org/3/reference/simple_stmts.html#the-import-statement
+
+Case study:
+
+```python
+# lib.py
+num: int = 0
+dic: Dict = {0: 0}
+  
+def show():
+  print(f'{num} {dic}')
+
+# a.py
+from lib import num, dic, show
+num = 1
+dic[0] = 1
+show()
+# this prints: 0 {0: 1}, `num` not changed as expected
+
+# b.py
+import lib
+lib.num = 2
+lib.dic[0] = 2
+show()
+# prints: 2 {0: 2}, `num` is changed
+
+
+```
+
+
+
+## Terms
+
+Module: https://docs.python.org/3/glossary.html#term-module
+
+Package: https://docs.python.org/3/glossary.html#term-package

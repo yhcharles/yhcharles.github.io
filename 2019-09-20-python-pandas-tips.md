@@ -2,7 +2,7 @@
 
 To display all text in a cell without truncation:
 
-`pd.set_option('display.max_colwidth', -1)`
+`pd.set_option('display.max_colwidth', None)`
 
 `pd.set_option('display.max_rows', None)`
 
