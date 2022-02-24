@@ -4,8 +4,6 @@ Charlie Yan (chy)'s blog
 
 一些旧的文章在：http://blog.csdn.net/yhcharles
 
-
-
 Godot demo:
 
 - [Dodge the creeps](https://yhcharles.github.io/web/1/dodge_the_creeps.html)
@@ -13,4 +11,4 @@ Godot demo:
 - [Othello](https://yhcharles.github.io/web/othello/othello.html)
 - [MineSweeper](https://yhcharles.github.io/web/minesweeper/minesweeper.html)
 - [Mancala](https://yhcharles.github.io/web/mancala/index.html)
-
+- [Summit Hours](https://yhcharles.github.io/web/summit/index.html)
