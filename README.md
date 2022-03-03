@@ -21,3 +21,4 @@ GUI demos:
 - Flutter:
   - [Mancala](https://yhcharles.github.io/web/mancala/index.html)
   - [Summit Hours](https://yhcharles.github.io/web/summit/index.html)
+  - [CORS test](https://yhcharles.github.io/web/cors/index.html)
