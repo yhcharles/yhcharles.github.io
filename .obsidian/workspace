@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Learn PyTorch.md",
+            "file": "README.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learn PyTorch.md",
+                "file": "README.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learn PyTorch.md"
+                "file": "README.md"
               }
             }
           }
@@ -99,15 +99,15 @@
   },
   "active": "a3ed92cc869ac984",
   "lastOpenFiles": [
+    "README.md",
+    "2020-11-18-mac-exfat.md",
+    "2020-12-09-enable-mixed-content-in-chrome.md",
+    "2020-12-31-run-windows-app-in-macos.md",
+    "2021-05-27-ffmpeg-tips.md",
+    "2022-01-03_playwright.md",
     "Learn PyTorch.md",
     "interestingthings.md",
-    "2022-01-03_playwright.md",
-    "2021-05-27-ffmpeg-tips.md",
     "2016-06-20-static-link-for-cgo.md",
-    "2016-06-17_gitbookshi_yong_tip.md",
-    "2016-06-27_how_to_setup_ipyparallel_clusters_with_.md",
-    "2017-01-12_vibrate_for_android_device.md",
-    "2016-12-06_git_tips.md",
-    "2017-12-22-basics-of-quantum-computing.md"
+    "2016-06-17_gitbookshi_yong_tip.md"
   ]
 }
