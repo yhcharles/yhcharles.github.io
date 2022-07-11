@@ -1,0 +1,113 @@
+{
+  "main": {
+    "id": "148860a740a0970e",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3ed92cc869ac984",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Learn PyTorch.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "403d67d1958d4b6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a1ee1f1274c075c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81eb3be5faf23f01",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "159c1d82e9ecef75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "286668b66279d775",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0bdd07c3fb2f604",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dddb56e53b222f2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Learn PyTorch.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "45bdab31936e50a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Learn PyTorch.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "a3ed92cc869ac984",
+  "lastOpenFiles": [
+    "Learn PyTorch.md",
+    "interestingthings.md",
+    "2022-01-03_playwright.md",
+    "2021-05-27-ffmpeg-tips.md",
+    "2016-06-20-static-link-for-cgo.md",
+    "2016-06-17_gitbookshi_yong_tip.md",
+    "2016-06-27_how_to_setup_ipyparallel_clusters_with_.md",
+    "2017-01-12_vibrate_for_android_device.md",
+    "2016-12-06_git_tips.md",
+    "2017-12-22-basics-of-quantum-computing.md"
+  ]
+}
