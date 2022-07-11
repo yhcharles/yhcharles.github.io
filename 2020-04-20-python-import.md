@@ -1,9 +1,11 @@
-# 2020-04-20 python import
+# Python imports
 
 absolute imports vs relative imports:
 
-* https://realpython.com/absolute-vs-relative-python-imports/
-* https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time
+- https://realpython.com/absolute-vs-relative-python-imports/
+- https://stackoverflow.com/questions/14132789/relative-imports-for-the-billionth-time
+
+
 
 Example: assume we have two packages in folders
 
@@ -18,6 +20,7 @@ def func1():
 
 def func2():
     print('func2')
+
 ```
 
 `m2.py`
@@ -29,6 +32,7 @@ from . import m1
 
 func1()
 m1.func2()
+
 ```
 
 Then in the root dir, you can run:
@@ -39,8 +43,10 @@ func1
 func2
 ```
 
-* If there's no `__init__.py` in folder pkg1, then the above command won't work.
-* **relative imports can be used only inside packages, scripts can't import relative**, that's why we need to run m2 as a module in a package
+- If there's no  `__init__.py` in folder pkg1, then the above command won't work.
+- **relative imports can be used only inside packages, scripts can't import relative**, that's why we need to run m2 as a module in a package
+
+
 
 ## import search order
 
@@ -56,17 +62,21 @@ And `sys.path=['/path1', '/path2']`, when we can `import p.a` but not `import p.
 
 The idea is: Python will search for package `p` first, and find it in `/path1`, so `import p.x` won't work.
 
+
+
 ## current imported modules
 
 `sys.modules` keeps record or currently imported modules, a mapping from module name to path
+
+
 
 ## Import binding
 
 https://docs.python.org/3/reference/import.html
 
-> The [`import`](https://docs.python.org/3/reference/simple\_stmts.html#import) statement combines two operations; it searches for the named module, then it binds the results of that search to a name in the local scope.
+> The [`import`](https://docs.python.org/3/reference/simple_stmts.html#import) statement combines two operations; it searches for the named module, then it binds the results of that search to a name in the local scope. 
 
-**Import Statement**: https://docs.python.org/3/reference/simple\_stmts.html#the-import-statement
+**Import Statement**: https://docs.python.org/3/reference/simple_stmts.html#the-import-statement
 
 Case study:
 
@@ -92,7 +102,10 @@ lib.dic[0] = 2
 show()
 # prints: 2 {0: 2}, `num` is changed
 
+
 ```
+
+
 
 ## Terms
 
