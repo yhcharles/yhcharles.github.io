@@ -45,3 +45,4 @@
 * [2020-12-09 enable mixed content in chrome](2020-12-09-enable-mixed-content-in-chrome.md)
 * [2020-12-31 run windows app in MacOS](2020-12-31-run-windows-app-in-macos.md)
 * [2021-04-26 record screen on mac](2021-04-26-record-screen-on-mac.md)
+* [Learn \`pjit\`](learn-pjit.md)
