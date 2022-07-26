@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2017-04-11_rulesof_ml.md",
+            "file": "2022-01-03_playwright.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2017-04-11_rulesof_ml.md",
+                "file": "2022-01-03_playwright.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -86,7 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2017-04-11_rulesof_ml.md"
+                "file": "2022-01-03_playwright.md"
               }
             }
           }
@@ -99,6 +99,7 @@
   },
   "active": "a3ed92cc869ac984",
   "lastOpenFiles": [
+    "2017-04-11_rulesof_ml.md",
     "SUMMARY.md",
     "Learn PyTorch.md",
     "2022-01-03_playwright.md",
@@ -107,7 +108,6 @@
     "2020-11-18-mac-exfat.md",
     "2020-12-09-enable-mixed-content-in-chrome.md",
     "2020-12-31-run-windows-app-in-macos.md",
-    "interestingthings.md",
-    "2016-06-20-static-link-for-cgo.md"
+    "interestingthings.md"
   ]
 }
