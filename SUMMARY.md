@@ -46,3 +46,4 @@
 * [2020-12-31 run windows app in MacOS](2020-12-31-run-windows-app-in-macos.md)
 * [2021-04-26 record screen on mac](2021-04-26-record-screen-on-mac.md)
 * [Learn \`JAX\`](learn-jax.md)
+* [Using PWA instead of native Apps](using-pwa-instead-of-native-apps.md)
