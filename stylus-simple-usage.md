@@ -17,3 +17,22 @@ Refer to the official doc for syntax: [https://github.com/openstyles/stylus/wiki
 ### CSS Doc
 
 Refer to w3schools for CSS doc: [https://www.w3schools.com/w3css/w3css\_fonts.asp](https://www.w3schools.com/w3css/w3css\_fonts.asp)
+
+### Example
+
+```css
+/* ==UserStyle==
+@name           www.cnblogs.com - 9/1/2022, 8:02:11 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("www.cnblogs.com") {
+    /* Insert code here... */
+    code {
+        font-family: menlo !important;
+    }
+}
+```
