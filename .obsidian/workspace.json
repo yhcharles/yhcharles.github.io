@@ -1,0 +1,124 @@
+{
+  "main": {
+    "id": "148860a740a0970e",
+    "type": "split",
+    "children": [
+      {
+        "id": "1469c39871921abe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a3ed92cc869ac984",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2022-01-03_playwright.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "403d67d1958d4b6e",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a1ee1f1274c075c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81eb3be5faf23f01",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "159c1d82e9ecef75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "286668b66279d775",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0bdd07c3fb2f604",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0dddb56e53b222f2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2022-01-03_playwright.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "45bdab31936e50a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2022-01-03_playwright.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "a3ed92cc869ac984",
+  "lastOpenFiles": [
+    "2017-04-11_rulesof_ml.md",
+    "SUMMARY.md",
+    "Learn PyTorch.md",
+    "2022-01-03_playwright.md",
+    "2021-05-27-ffmpeg-tips.md",
+    "README.md",
+    "2020-11-18-mac-exfat.md",
+    "2020-12-09-enable-mixed-content-in-chrome.md",
+    "2020-12-31-run-windows-app-in-macos.md",
+    "interestingthings.md"
+  ]
+}
