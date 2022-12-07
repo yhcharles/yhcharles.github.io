@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2017-12-11-pythonde-iterator-iterable-generator.md",
+                "file": "2018-03-05-ssh-port-forwarding.md",
                 "mode": "source",
                 "source": false
               }
@@ -57,8 +57,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2017-12-11-pythonde-iterator-iterable-generator.md",
+                "file": "2018-03-05-ssh-port-forwarding.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2017-12-11-pythonde-iterator-iterable-generator.md"
+                "file": "2018-03-05-ssh-port-forwarding.md"
               }
             }
           }
@@ -106,20 +105,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "159c1d82e9ecef75",
+  "active": "a3ed92cc869ac984",
   "lastOpenFiles": [
+    "2019-05-20-karabiner.md",
+    "2017-12-19-ssh-tips.md",
+    "2017-12-11-pythonde-iterator-iterable-generator.md",
     "2020-04-20-python-import.md",
     "2022-01-03_playwright.md",
     "2017-04-11_rulesof_ml.md",
     "SUMMARY.md",
     "Learn PyTorch.md",
     "2021-05-27-ffmpeg-tips.md",
-    "README.md",
-    "2020-11-18-mac-exfat.md",
-    "2020-12-09-enable-mixed-content-in-chrome.md",
-    "2020-12-31-run-windows-app-in-macos.md"
+    "README.md"
   ]
 }
