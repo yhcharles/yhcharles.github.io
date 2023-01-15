@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0d7695dbff553f86",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.1.9"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +117,16 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "a3ed92cc869ac984",
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "0d7695dbff553f86",
   "lastOpenFiles": [
     "2017-12-11-pythonde-iterator-iterable-generator.md",
     "2018-03-05-ssh-port-forwarding.md",
