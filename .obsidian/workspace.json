@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2017-12-07-python-profiling.md",
+                "file": "2020-08-26-flutter-tips.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "0d7695dbff553f86",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.9"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "profile",
+                "query": "background",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2017-12-07-python-profiling.md",
+                "file": "2020-08-26-flutter-tips.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -106,7 +95,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2017-12-07-python-profiling.md"
+                "file": "2020-08-26-flutter-tips.md"
               }
             }
           }
@@ -126,8 +115,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0d7695dbff553f86",
+  "active": "a3ed92cc869ac984",
   "lastOpenFiles": [
+    "2017-12-07-python-profiling.md",
     "2017-12-11-pythonde-iterator-iterable-generator.md",
     "2018-03-05-ssh-port-forwarding.md",
     "2019-05-20-karabiner.md",
@@ -136,7 +126,6 @@
     "2022-01-03_playwright.md",
     "2017-04-11_rulesof_ml.md",
     "SUMMARY.md",
-    "Learn PyTorch.md",
-    "2021-05-27-ffmpeg-tips.md"
+    "Learn PyTorch.md"
   ]
 }
