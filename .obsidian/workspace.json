@@ -23,11 +23,10 @@
             "id": "b55e50695dd19c3a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "2018-01-05-learn-kivy.md",
-                "mode": "source",
-                "source": false
+                "file": ".obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -90,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2018-01-05-learn-kivy.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -106,13 +104,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2018-01-05-learn-kivy.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "69db73c50af03df1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -127,10 +131,10 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "81eb3be5faf23f01",
+  "active": "b55e50695dd19c3a",
   "lastOpenFiles": [
-    "2020-08-26-flutter-tips.md",
     "2018-01-05-learn-kivy.md",
+    "2020-08-26-flutter-tips.md",
     "2017-12-07-python-profiling.md",
     "2017-12-11-pythonde-iterator-iterable-generator.md",
     "2018-03-05-ssh-port-forwarding.md",
