@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "kivy",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,8 +70,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,7 +127,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b55e50695dd19c3a",
+  "active": "81eb3be5faf23f01",
   "lastOpenFiles": [
     "2020-08-26-flutter-tips.md",
     "2018-01-05-learn-kivy.md",
