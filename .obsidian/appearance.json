@@ -1,5 +1,6 @@
 {
   "theme": "moonstone",
   "accentColor": "",
-  "cssTheme": "Typora-Vue"
+  "cssTheme": "Typora-Vue",
+  "baseFontSize": 14
 }
