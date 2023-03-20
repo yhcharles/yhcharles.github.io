@@ -30,19 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "4fb7c805e4ccc8fd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.1.16"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +135,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "4fb7c805e4ccc8fd",
+  "active": "b55e50695dd19c3a",
   "lastOpenFiles": [
     "2018-01-05-learn-kivy.md",
     "2020-08-26-flutter-tips.md",
