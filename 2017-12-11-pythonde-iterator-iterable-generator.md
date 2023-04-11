@@ -1,10 +1,9 @@
 写在最前面，简单而言：
-
+- **iterator类似一个指针，或者C++中的iterator，可以被迭代；iterable一般指一个容器，是“可以被迭代访问（其中的元素）的”**
 - iterator实现`__next__()`接口，调用`next(iterator_obj)`的时候，返回一个元素或者抛出StopIteration异常
 - iterable实现`__iter()__`接口，调用`iter(iterable_obj)`的时候，返回一个iterator对象
 - iterator也实现`__iter()__`接口，从而iterator也是iterable的，一般返回self
 - for语句接受的是iterable对象，然后自动调用iter()函数得到一个iterator对象，在循环体中再自动调用next()获取iterator的元素或者停止循环
-- iterator类似一个指针，或者C++中的iterator，可以被迭代；iterable一般指一个容器，是“可以被迭代访问（其中的元素）的”
 
 # iterator
 
