@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2018-01-05-learn-kivy.md",
+                "file": "stylus-simple-usage.md",
                 "mode": "source",
                 "source": false
               }
@@ -90,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2018-01-05-learn-kivy.md",
+                "file": "stylus-simple-usage.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -107,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2018-01-05-learn-kivy.md"
+                "file": "stylus-simple-usage.md"
               }
             }
           },
@@ -137,6 +137,8 @@
   },
   "active": "b55e50695dd19c3a",
   "lastOpenFiles": [
+    "README.md",
+    "learn-jax.md",
     "2018-01-05-learn-kivy.md",
     "2020-08-26-flutter-tips.md",
     "2017-12-07-python-profiling.md",
