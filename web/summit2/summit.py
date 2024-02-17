@@ -11,7 +11,9 @@ _location_hours = {}
 
 async def open_hours(location):
     for _ in range(3):
-        r = await aio.get(f"https://summitatsnoqualmie.com/hours?location={location}")
+        r = await aio.get(
+            f"https://summitatsnoqualmie.com/hours?location={location}", cache=True
+        )
         if r.status != 200:
             continue
         data = r.data
