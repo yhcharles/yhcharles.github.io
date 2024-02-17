@@ -181,7 +181,7 @@ def App(props=None, *children):
                         ),
                         stickyHeader=True,
                     ),
-                    sx=dict(maxHeight=window.innerHeight - 80),
+                    sx=dict(maxHeight=window.innerHeight - 60),
                 ),
                 width="100%",
                 overflow="auto",
