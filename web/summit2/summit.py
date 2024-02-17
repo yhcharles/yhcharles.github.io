@@ -170,7 +170,7 @@ def App(props=None, *children):
                                     ),
                                     hover=True,
                                     style=(
-                                        dict(backgroundColor="#DDFFDD")
+                                        dict(backgroundColor="#EEFFEE")
                                         if "S" in date
                                         else {}
                                     ),
