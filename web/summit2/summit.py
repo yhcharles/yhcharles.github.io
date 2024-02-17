@@ -134,6 +134,8 @@ def App(props=None, *children):
 
     init()
 
+    today = datetime.now().strftime("%Y-%m-%d")
+
     return Div(
         Box(
             AppBar(
@@ -174,6 +176,7 @@ def App(props=None, *children):
                                     ),
                                 )
                                 for date, loc_hour in get_date_hours().items()
+                                if date >= today
                             ],
                         ),
                         stickyHeader=True,
