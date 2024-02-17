@@ -115,6 +115,7 @@ TableContainer = DefineComponent(mui.TableContainer)
 TableHead = DefineComponent(mui.TableHead)
 TableRow = DefineComponent(mui.TableRow)
 Typography = DefineComponent(mui.Typography)
+Toolbar = DefineComponent(mui.Toolbar)
 
 
 def App(props=None, *children):
@@ -139,14 +140,15 @@ def App(props=None, *children):
     return Div(
         Box(
             AppBar(
-                Typography(
-                    "Summit@Snoqualmie Open Hours",
-                    variant="h6",
-                    component="div",
-                    sx={"flexGrow": 1},
+                Toolbar(
+                    Typography(
+                        "Summit@Snoqualmie Open Hours",
+                        variant="h6",
+                        sx={"flexGrow": 1},
+                    ),
                 ),
                 position="static",
-                sx=dict(mr=2),
+                sx=dict(mr=2, alignItems="center"),
             ),
             sx=dict(flexGrow=1),
         ),
@@ -181,7 +183,7 @@ def App(props=None, *children):
                         ),
                         stickyHeader=True,
                     ),
-                    sx=dict(maxHeight=window.innerHeight - 60),
+                    sx=dict(maxHeight=window.innerHeight - 80),
                 ),
                 width="100%",
                 overflow="auto",
