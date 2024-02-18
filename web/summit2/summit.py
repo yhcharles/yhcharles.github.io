@@ -180,6 +180,7 @@ def App(props=None, *children):
                                 for date, loc_hour in get_date_hours().items()
                                 if date >= today
                             ],
+                            style=dict(whiteSpace="nowrap"),
                         ),
                         size="small",
                         stickyHeader=True,
