@@ -46,6 +46,10 @@ async def open_hours(location):
                     .item(0)
                     .innerText.split()
                 )
+                if hours.startswith("Open"):
+                    hours = hours[5:]
+                elif hours.strip() == "Closed":
+                    hours = "❌"
                 if len(hours):
                     ret[f"{year}-{month:02d}-{date:02d} ({day_of_week})"] = hours
         if not ret:
