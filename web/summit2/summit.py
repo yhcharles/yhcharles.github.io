@@ -181,6 +181,7 @@ def App(props=None, *children):
                                 if date >= today
                             ],
                         ),
+                        size="small",
                         stickyHeader=True,
                     ),
                     sx=dict(maxHeight=window.innerHeight - 80),
