@@ -124,6 +124,9 @@ Toolbar = DefineComponent(mui.Toolbar)
 
 def App(props=None, *children):
     hour_info, set_hour_info = React.useState(False)
+    table_height, set_table_height = React.useState(window.innerHeight - 80)
+
+    window.onresize = lambda e: set_table_height(window.innerHeight - 80)
 
     def init():
         async def get_hour_info(location):
@@ -140,63 +143,50 @@ def App(props=None, *children):
     init()
 
     today = datetime.now().strftime("%Y-%m-%d")
+    appbar = AppBar(
+        Toolbar(
+            Typography(
+                "Summit@Snoqualmie Open Hours",
+                variant="h6",
+                sx={"flexGrow": 1},
+            ),
+        ),
+        position="static",
+        sx=dict(mr=2, alignItems="center"),
+    )
+    table = TableContainer(
+        Table(
+            TableHead(
+                TableRow(
+                    TableCell("Date"),
+                    *(TableCell(loc) for loc in _location_list),
+                ),
+            ),
+            TableBody(
+                *[
+                    TableRow(
+                        TableCell(date),
+                        *(
+                            TableCell(loc_hour.get(loc, "N/A"))
+                            for loc in _location_list
+                        ),
+                        hover=True,
+                        style=(dict(backgroundColor="#EEFFEE") if "S" in date else {}),
+                    )
+                    for date, loc_hour in get_date_hours().items()
+                    if date >= today
+                ],
+                style=dict(whiteSpace="nowrap"),
+            ),
+            size="small",
+            stickyHeader=True,
+        ),
+        sx=dict(maxHeight=table_height),
+    )
 
     return Div(
-        Box(
-            AppBar(
-                Toolbar(
-                    Typography(
-                        "Summit@Snoqualmie Open Hours",
-                        variant="h6",
-                        sx={"flexGrow": 1},
-                    ),
-                ),
-                position="static",
-                sx=dict(mr=2, alignItems="center"),
-            ),
-            sx=dict(flexGrow=1),
-        ),
-        (
-            Paper(
-                TableContainer(
-                    Table(
-                        TableHead(
-                            TableRow(
-                                TableCell("Date"),
-                                *(TableCell(loc) for loc in _location_list),
-                            ),
-                        ),
-                        TableBody(
-                            *[
-                                TableRow(
-                                    TableCell(date),
-                                    *(
-                                        TableCell(loc_hour.get(loc, "N/A"))
-                                        for loc in _location_list
-                                    ),
-                                    hover=True,
-                                    style=(
-                                        dict(backgroundColor="#EEFFEE")
-                                        if "S" in date
-                                        else {}
-                                    ),
-                                )
-                                for date, loc_hour in get_date_hours().items()
-                                if date >= today
-                            ],
-                            style=dict(whiteSpace="nowrap"),
-                        ),
-                        size="small",
-                        stickyHeader=True,
-                    ),
-                    sx=dict(maxHeight=window.innerHeight - 80),
-                ),
-                width="100%",
-                overflow="auto",
-            )
-            if hour_info
-            else "loading..."
-        ),
+        Box(appbar, sx=dict(flexGrow=1)),
+        (Paper(table, width="100%", overflow="auto") if hour_info else "loading..."),
     )
 
 
