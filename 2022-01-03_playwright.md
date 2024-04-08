@@ -17,5 +17,8 @@ let nodes = document.evaluate('//span[@class="ztlz"]', document, null, XPathResu
 for (i = 0; i < nodes.snapshotLength; i++) {
 	let node = nodes.snapshotItem(i);
 }
-
+```
+In Python, we can use `page.query_selector_all()` which also accepts XPath in addition to CSS:
+```python
+nodes = await page.query_selector_all('xpath=//span[@class="ztlz"]')
 ```
