@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2020-08-26-flutter-tips.md",
+                "file": "2022-01-03_playwright.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "2022-01-03_playwright.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SUMMARY.md"
+                "file": "2022-01-03_playwright.md"
               }
             }
           },
@@ -143,13 +142,14 @@
       "markdown-importer:打开 Markdown 格式转换器": false
     }
   },
-  "active": "b55e50695dd19c3a",
+  "active": "a3ed92cc869ac984",
   "lastOpenFiles": [
+    "2020-08-26-flutter-tips.md",
+    "SUMMARY.md",
     "README.md",
     "2022-01-03_playwright.md",
     "2018-03-05-ssh-port-forwarding.md",
     "2017-04-15_play_emulator_games_on_mac_using_openem.md",
-    "2020-08-26-flutter-tips.md",
     "2017-12-11-pythonde-iterator-iterable-generator.md",
     "stylus-simple-usage.md",
     "learn-jax.md",
