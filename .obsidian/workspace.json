@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2022-01-03_playwright.md",
+                "file": "SUMMARY.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2022-01-03_playwright.md",
+                "file": "SUMMARY.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2022-01-03_playwright.md"
+                "file": "SUMMARY.md"
               }
             }
           },
@@ -145,19 +145,19 @@
   },
   "active": "b55e50695dd19c3a",
   "lastOpenFiles": [
+    "README.md",
+    "2022-01-03_playwright.md",
     "2018-03-05-ssh-port-forwarding.md",
     "2017-04-15_play_emulator_games_on_mac_using_openem.md",
     "2020-08-26-flutter-tips.md",
     "2017-12-11-pythonde-iterator-iterable-generator.md",
     "stylus-simple-usage.md",
-    "README.md",
     "learn-jax.md",
     "2018-01-05-learn-kivy.md",
     "2017-12-07-python-profiling.md",
     "2019-05-20-karabiner.md",
     "2017-12-19-ssh-tips.md",
     "2020-04-20-python-import.md",
-    "2022-01-03_playwright.md",
     "2017-04-11_rulesof_ml.md"
   ]
 }
