@@ -1,4 +1,9 @@
-
+# Install
+```sh
+pip install playwright  # install python package
+playwright install  # install browser
+```
+pip
 
 
 
