@@ -18,7 +18,15 @@ for (i = 0; i < nodes.snapshotLength; i++) {
 	let node = nodes.snapshotItem(i);
 }
 ```
-In Python, we can use `page.query_selector_all()` which also accepts XPath in addition to CSS:
+
+In Python, we can use `locator`:
+```python
+nodes = await page.locator('xpath=//span[@class="ztlz"]').all()
+```
+in `nodes`, each is a [`Locator`](https://playwright.dev/python/docs/api/class-locator) instance
+
+we can also use `page.query_selector_all()` which also accepts XPath in addition to CSS:
 ```python
 nodes = await page.query_selector_all('xpath=//span[@class="ztlz"]')
 ```
+however, this is not officially encouraged.
