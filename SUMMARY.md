@@ -45,6 +45,8 @@
 * [2020-12-09 enable mixed content in chrome](2020-12-09-enable-mixed-content-in-chrome.md)
 * [2020-12-31 run windows app in MacOS](2020-12-31-run-windows-app-in-macos.md)
 * [2021-04-26 record screen on mac](2021-04-26-record-screen-on-mac.md)
+* [2021-05-27-ffmpeg-tips](2021-05-27-ffmpeg-tips.md)
+* [2022-01-03_playwright](2022-01-03_playwright.md)
 * [Learn \`JAX\`](learn-jax.md)
 * [Using PWA instead of native Apps](using-pwa-instead-of-native-apps.md)
 * [Stylus simple usage](stylus-simple-usage.md)
