@@ -12,7 +12,7 @@ To solve this problem:
 2. when you connect to remote host in a new VSCode session, open a new terminal, and attach to the old session with `tmux a`
 3. config your shell to update the Env var:
 
-* for zsh: https://babushk.in/posts/renew-environment-tmux.html
-* for bash: https://superuser.com/questions/175799/does-bash-have-a-hook-that-is-run-before-executing-a-command
+* for zsh: [https://babushk.in/posts/renew-environment-tmux.html](https://babushk.in/posts/renew-environment-tmux.html)
+* for bash: [https://superuser.com/questions/175799/does-bash-have-a-hook-that-is-run-before-executing-a-command](https://superuser.com/questions/175799/does-bash-have-a-hook-that-is-run-before-executing-a-command)
 * for fish: TBD
 
