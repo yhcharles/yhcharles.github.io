@@ -15,4 +15,11 @@ To solve this problem:
 * for zsh: [https://babushk.in/posts/renew-environment-tmux.html](https://babushk.in/posts/renew-environment-tmux.html)
 * for bash: [https://superuser.com/questions/175799/does-bash-have-a-hook-that-is-run-before-executing-a-command](https://superuser.com/questions/175799/does-bash-have-a-hook-that-is-run-before-executing-a-command)
 * for fish: TBD
+  *   add this line to `.config/fish/config.fish` file:
+
+      ```
+      fish code
+          VSCODE_IPC_HOOK_CLI=(tmux show-environment | grep "VSCODE_IPC_HOOK_CLI" | cut -d"=" -f 2) /usr/local/bin/code $argv
+      end
+      ```
 
