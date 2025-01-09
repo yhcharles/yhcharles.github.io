@@ -11,6 +11,7 @@
 * platypus: [https://sveinbjorn.org/files/manpages/PlatypusDocumentation.html](https://sveinbjorn.org/files/manpages/PlatypusDocumentation.html), a developer tool to create native macOS app wrappers around scripts
 * ice: [https://icemenubar.app/](https://icemenubar.app/), menubar management tool
 * menubarX: [https://menubarx.app/](https://menubarx.app/), browser in menubar, so you can add any web-apps to your menubar
+* fastscripts: [https://redsweater.com/fastscripts/](https://redsweater.com/fastscripts/), run scripts from menubar
 
 ## AI gaming
 
