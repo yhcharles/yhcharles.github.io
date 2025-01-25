@@ -1,0 +1,8 @@
+packages = ["./whl/puepy-0.4.6-py3-none-any.whl"]
+
+# interpreter = "./micropython/micropython.mjs"  # micropython
+# interpreter = "./pyodide/pyodide.mjs"
+
+[js_modules.main]
+"https://cdn.jsdelivr.net/npm/morphdom@2.7.2/+esm" = "morphdom"
+# "./js/morphdom@2.7.2+esm.js" = "morphdom"
