@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PyScript Offline</title>
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.9.2/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.9.2/core.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.19.1/cdn/themes/light.css" />
+  <script type="module"
+    src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.19.1/cdn/shoelace-autoloader.js"></script>
+  <link rel="manifest" href="./manifest.json">
+</head>
+
+<body>
+  <div id="app">Loading...</div>
+  <script type="py" src="./main.py" config="./pyscript.toml"></script>
+  <!-- <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./js/service-worker.js').then(registration => {
+          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+        }, error => {
+          console.log('ServiceWorker registration failed: ', error);
+        });
+      });
+    }
+  </script> -->
+</body>
+
+</html>
