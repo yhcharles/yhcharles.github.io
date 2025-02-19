@@ -23,7 +23,8 @@ Tabs are useful and convenient to organize the windows. But for PWA, by default 
 
 Open flags config by entering `chrome://flags` or `edge://flags` in the address bar. Then search for `pwa` options, and turn on these options:
 
-![](.gitbook/assets/image.png)
+![[Pasted image 20250219064413.png]]
+
 
 Then restart the browser, and maybe also reinstall the Apps. When a new App is installed, there will be a dialog box to select which mode this App should work in. Choose “Open as a tabbed window".
 
