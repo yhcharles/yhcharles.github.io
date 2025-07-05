@@ -1,0 +1,459 @@
+/* 重置样式和基础设置 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 头部样式 */
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.header h1 i {
+    color: #e74c3c;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+.subtitle {
+    font-size: 1.1rem;
+    color: #7f8c8d;
+    margin: 0;
+}
+
+/* 主要内容区域 */
+.main-content {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+}
+
+/* 状态指示器 */
+.status-indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border-left: 4px solid #3498db;
+}
+
+.status-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #95a5a6;
+    transition: all 0.3s ease;
+}
+
+.status-dot.listening {
+    background: #e74c3c;
+    animation: blink 1s infinite;
+}
+
+.status-dot.ready {
+    background: #27ae60;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    51%, 100% { opacity: 0.3; }
+}
+
+.status-text {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* 控制按钮 */
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 140px;
+    justify-content: center;
+}
+
+.btn-primary {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+}
+
+.btn-primary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+}
+
+.btn-secondary {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: white;
+}
+
+.btn-secondary:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+}
+
+.btn-outline {
+    background: transparent;
+    color: #7f8c8d;
+    border: 2px solid #bdc3c7;
+}
+
+.btn-outline:hover {
+    background: #ecf0f1;
+    border-color: #95a5a6;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none !important;
+}
+
+/* 语言选择器 */
+.language-selector {
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.language-selector label {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-right: 10px;
+}
+
+.language-selector select {
+    padding: 8px 15px;
+    border: 2px solid #bdc3c7;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.language-selector select:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+.btn-test {
+    padding: 8px 16px;
+    border: 2px solid #9b59b6;
+    border-radius: 8px;
+    background: transparent;
+    color: #9b59b6;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-test:hover {
+    background: #9b59b6;
+    color: white;
+    transform: translateY(-1px);
+}
+
+/* 转录容器 */
+.transcript-container {
+    background: #f8f9fa;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border: 1px solid #e9ecef;
+}
+
+.transcript-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.transcript-header h3 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+.transcript-controls {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-icon {
+    background: none;
+    border: none;
+    color: #7f8c8d;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.btn-icon:hover {
+    background: #e9ecef;
+    color: #2c3e50;
+}
+
+.transcript-content {
+    min-height: 200px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 1rem;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    white-space: pre-wrap;
+}
+
+.transcript-content.empty .placeholder {
+    color: #95a5a6;
+    font-style: italic;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+}
+
+.interim-text {
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff3cd;
+    border-radius: 8px;
+    border-left: 4px solid #ffc107;
+    font-style: italic;
+    color: #856404;
+    min-height: 20px;
+}
+
+.interim-text:empty {
+    display: none;
+}
+
+/* 统计信息 */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stat-item {
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #e9ecef;
+}
+
+.stat-label {
+    display: block;
+    font-weight: 600;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.stat-value {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+/* 支持信息 */
+.support-info {
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.support-info.error {
+    background: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.info-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.info-content i {
+    color: #155724;
+    font-size: 1.2rem;
+}
+
+.support-info.error .info-content i {
+    color: #721c24;
+}
+
+.info-content p {
+    margin: 0;
+    color: #155724;
+}
+
+.support-info.error .info-content p {
+    color: #721c24;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .header h1 {
+        font-size: 2rem;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .controls {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .btn {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .transcript-header {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+    
+    .stats {
+        grid-template-columns: 1fr;
+    }
+    
+    .language-selector {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 1.5rem 1rem;
+    }
+    
+    .main-content {
+        padding: 1.5rem 1rem;
+    }
+    
+    .transcript-content {
+        min-height: 150px;
+        font-size: 1rem;
+    }
+}
+
+/* 滚动条样式 */
+.transcript-content::-webkit-scrollbar {
+    width: 8px;
+}
+
+.transcript-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.transcript-content::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+
+.transcript-content::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* 动画效果 */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* 文本选择样式 */
+::selection {
+    background: #3498db;
+    color: white;
+} 
