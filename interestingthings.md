@@ -13,7 +13,9 @@
 * menubarX: [https://menubarx.app/](https://menubarx.app/), browser in menubar, so you can add any web-apps to your menubar
 * fastscripts: [https://redsweater.com/fastscripts/](https://redsweater.com/fastscripts/), run scripts from menubar
 
-Py
+## Python Packages
+- [PyXA](https://skaplanofficial.github.io/PyXA/index.html): Python for Automation is a wrapper around Apple’s Scripting Bridge framework that enables AppleScript- and JXA-like control over macOS applications from within Python.
+
 
 ## AI gaming
 
