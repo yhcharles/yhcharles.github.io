@@ -13,6 +13,8 @@
 * menubarX: [https://menubarx.app/](https://menubarx.app/), browser in menubar, so you can add any web-apps to your menubar
 * fastscripts: [https://redsweater.com/fastscripts/](https://redsweater.com/fastscripts/), run scripts from menubar
 
+Py
+
 ## AI gaming
 
 https://www.aigaming.com/ AIgaming.com is a platform that allows computer programs - also known as bots, to play each other at challenging games to win bitcoin.

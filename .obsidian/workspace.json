@@ -71,12 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-02-19 Disable press-and-hold key on Mac.md",
+                "file": "interestingthings.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-02-19 Disable press-and-hold key on Mac"
+              "title": "interestingthings"
             }
           }
         ],
@@ -206,8 +206,8 @@
   },
   "active": "343eb9044dfb4eff",
   "lastOpenFiles": [
-    "using-pwa-instead-of-native-apps.md",
     "2025-02-19 Disable press-and-hold key on Mac.md",
+    "using-pwa-instead-of-native-apps.md",
     "Pasted image 20250219064413.png",
     "interestingthings.md",
     "2025-01-31-alist-webdav.md",
