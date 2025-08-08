@@ -71,16 +71,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interestingthings.md",
+                "file": "2017-12-19-ssh-tips.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "interestingthings"
+              "title": "2017-12-19-ssh-tips"
+            }
+          },
+          {
+            "id": "4ca9408ea2a3b9ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2025-08-07 git for large repos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-07 git for large repos"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -204,12 +218,16 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "343eb9044dfb4eff",
+  "active": "4ca9408ea2a3b9ff",
   "lastOpenFiles": [
+    "2017-12-19-ssh-tips.md",
+    "2025-08-07 git for large repos.md",
+    "2017-12-14-publish-your-python-package.md",
+    "2017-12-07-setup-zsh.md",
+    "interestingthings.md",
     "2025-02-19 Disable press-and-hold key on Mac.md",
     "using-pwa-instead-of-native-apps.md",
     "Pasted image 20250219064413.png",
-    "interestingthings.md",
     "2025-01-31-alist-webdav.md",
     "2025-02-18 Stop MacOS to create .DS_Store files.md",
     "2025-01-29 Python uv.md",
@@ -228,10 +246,6 @@
     "2017-12-11-pythonde-iterator-iterable-generator.md",
     "stylus-simple-usage.md",
     "learn-jax.md",
-    "2017-12-07-python-profiling.md",
-    "2019-05-20-karabiner.md",
-    "2017-12-19-ssh-tips.md",
-    "2020-04-20-python-import.md",
-    "2017-04-11_rulesof_ml.md"
+    "2017-12-07-python-profiling.md"
   ]
 }
