@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b55e50695dd19c3a",
+            "id": "eb7e47462ea287ce",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SUMMARY.md",
+                "file": "interestingthings.md",
                 "mode": "source",
                 "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "SUMMARY"
+              "title": "interestingthings"
             }
           }
         ]
@@ -147,34 +147,34 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "b55e50695dd19c3a",
+  "active": "eb7e47462ea287ce",
   "lastOpenFiles": [
-    "2025-02-18 Stop MacOS from creating .DS_Store files.md",
+    "SUMMARY.md",
+    "interestingthings.md",
+    "books/influence.md",
+    "books/README.md",
+    "books/SUMMARY.md",
+    "books/快速阅读术.md",
+    "2018-03-05-ssh-port-forwarding.md",
+    "2017-12-19-ssh-tips.md",
     "2025-08-07 git for large repos.md",
     "2025-02-19 Disable press-and-hold key on Mac.md",
-    "2017-12-19-ssh-tips.md",
+    "2025-02-18 Stop MacOS from creating .DS_Store files.md",
+    "2025-02-05 Python context manager.md",
+    "2025-02-04 css height.md",
     "2017-12-14-publish-your-python-package.md",
     "2017-12-07-setup-zsh.md",
-    "interestingthings.md",
     "using-pwa-instead-of-native-apps.md",
     "Pasted image 20250219064413.png",
     "2025-01-31-alist-webdav.md",
     "2025-01-29 Python uv.md",
     "vscode-and-tmux.md",
-    "2025-02-05 Python context manager.md",
-    "2025-02-04 css height.md",
     "2025-01-31 pan.baidu API.md",
     "2025-01-29-date-time-format.md",
     "2018-01-05-learn-kivy.md",
-    "SUMMARY.md",
     "2022-01-03_playwright.md",
     "2020-08-26-flutter-tips.md",
     "README.md",
-    "2018-03-05-ssh-port-forwarding.md",
-    "2017-04-15_play_emulator_games_on_mac_using_openem.md",
-    "2017-12-11-pythonde-iterator-iterable-generator.md",
-    "stylus-simple-usage.md",
-    "learn-jax.md",
-    "2017-12-07-python-profiling.md"
+    "2017-04-15_play_emulator_games_on_mac_using_openem.md"
   ]
 }
