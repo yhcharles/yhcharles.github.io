@@ -22,8 +22,21 @@
               "icon": "lucide-file",
               "title": "interestingthings"
             }
+          },
+          {
+            "id": "887fa0c28e16389e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,6 +153,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -147,7 +161,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "eb7e47462ea287ce",
+  "active": "887fa0c28e16389e",
   "lastOpenFiles": [
     "SUMMARY.md",
     "interestingthings.md",
