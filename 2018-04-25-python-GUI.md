@@ -1,15 +1,22 @@
 # GUI with Python
 
-## 1. Desktop
+| Package     | Web | Mobile | Desktop |
+| ----------- | --- | ------ | ------- |
+| Tkinter     |     |        |         |
+| PyQT/PySide |     |        |         |
+| Kivy        |     |        |         |
+| PySimpleGUI |     |        |         |
+| DearPyGui   |     |        |         |
+| Flet        |     |        |         |
+| streamlit   |     |        |         |
+| Dash        |     |        |         |
+| Gradio      |     |        |         |
+| NiceGUI     |     |        |         |
+| Reflex      |     |        |         |
+| Rio         |     |        |         |
+| Taipy       |     |        |         |
 
-- Tkinter
-- PyQT
-- Kivy
 
-## 2. Mobile
-
-- PyQT
-- Kivy
 
 ## 3. Web
 
@@ -28,7 +35,7 @@
 ## 4. interact with Js
 
 Translate/compile Python to Js:
-
 - [brython](http://www.brython.info/)
 - [transcrypt](https://transcrypt.org/)
 - [pypyjs](http://pypyjs.org/)
+- pyodide/pyscript
