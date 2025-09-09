@@ -12,6 +12,7 @@
 | Dash        |     |        |         |
 | Gradio      |     |        |         |
 | NiceGUI     |     |        |         |
+| ReactPy     |     |        |         |
 | Reflex      |     |        |         |
 | Rio         |     |        |         |
 | Taipy       |     |        |         |
