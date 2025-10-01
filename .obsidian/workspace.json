@@ -84,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "calendar",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -177,7 +178,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "5826834194ffb4c7",
+  "active": "159c1d82e9ecef75",
   "lastOpenFiles": [
     "2025-09-24 Understanding Process Termination.md",
     "2025-01-29 Python uv.md",
