@@ -29,16 +29,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-01-29 Python uv.md",
+                "file": "2025-09-21 PyTorch Linear Layer.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-29 Python uv"
+              "title": "2025-09-21 PyTorch Linear Layer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -95,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 252.5
   },
   "right": {
     "id": "286668b66279d775",
@@ -163,18 +162,25 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "2431caf284c858dd",
+  "active": "eb7e47462ea287ce",
   "lastOpenFiles": [
-    "2025-09-24 light & fire.md",
-    "2025-09-24 Understanding Process Termination.md",
-    "2025-10-13 Deep Dive - Click, NiceGUI, and Uvicorn Reload Mode.md",
-    "2025-01-29 Python uv.md",
-    "Untitled.base",
     "2025-09-21 PyTorch Linear Layer.md",
+    "Learn PyTorch.md",
+    "2025-10-13 Deep Dive - Click, NiceGUI, and Uvicorn Reload Mode.md",
+    "2025-09-24 Understanding Process Termination.md",
+    "2025-09-19 pdf2zh.md",
+    "2025-08-07 git for large repos.md",
+    "2025-02-19 Disable press-and-hold key on Mac.md",
+    "2025-02-18 Stop MacOS from creating .DS_Store files.md",
+    "2025-02-05 Python context manager.md",
+    "2025-02-04 css height.md",
+    "2025-01-31-alist-webdav.md",
+    "2025-01-31 pan.baidu API.md",
+    "2025-01-29 Python uv.md",
+    "2025-09-24 light & fire.md",
+    "Untitled.base",
     "Untitled.md",
     "interestingthings.md",
-    "2025-08-07 git for large repos.md",
-    "2025-09-19 pdf2zh.md",
     "2018-04-25-python-GUI.md",
     "SUMMARY.md",
     "books/influence.md",
@@ -183,15 +189,8 @@
     "books/快速阅读术.md",
     "2018-03-05-ssh-port-forwarding.md",
     "2017-12-19-ssh-tips.md",
-    "2025-02-19 Disable press-and-hold key on Mac.md",
-    "2025-02-18 Stop MacOS from creating .DS_Store files.md",
-    "2025-02-05 Python context manager.md",
-    "2025-02-04 css height.md",
     "2017-12-14-publish-your-python-package.md",
     "2017-12-07-setup-zsh.md",
-    "using-pwa-instead-of-native-apps.md",
-    "Pasted image 20250219064413.png",
-    "2025-01-31-alist-webdav.md",
-    "vscode-and-tmux.md"
+    "Pasted image 20250219064413.png"
   ]
 }
