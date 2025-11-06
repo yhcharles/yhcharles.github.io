@@ -2,7 +2,7 @@
 
 VSCode can also install a command `code` in your `PATH`, which allows you to open a file in VSCode from command line with `code a.txt`. But this becomes tricky when you are also using `tmux`.
 
-Assum you're using VSCode to connect to a remote host. When you start a terminal in VSCode's "terminal" pannel, it sets some Env vars (`VSCODE_IPC_HOOK_CLI`) which exposes a socket of the current VSCode session. Then when you try to open a file with `code` command, it reads this Env var and connect to the socket and tell the VSCode session to open the file you want. The socket changes when you connect in a new VSCode session.
+Assume you're using VSCode to connect to a remote host. When you start a terminal in VSCode's "terminal" panel, it sets some Env vars (`VSCODE_IPC_HOOK_CLI`) which exposes a socket of the current VSCode session. Then when you try to open a file with `code` command, it reads this Env var and connect to the socket and tell the VSCode session to open the file you want. The socket changes when you connect in a new VSCode session.
 
 The problem with `tmux` is when you attach to a previous session, the Env var still points to the old socket. Thus, the `code` command can't work as expected.
 
@@ -16,10 +16,10 @@ To solve this problem:
 * for bash: [https://superuser.com/questions/175799/does-bash-have-a-hook-that-is-run-before-executing-a-command](https://superuser.com/questions/175799/does-bash-have-a-hook-that-is-run-before-executing-a-command)
 * for fish: TBD
   *   add this line to `.config/fish/config.fish` file:
-
-      ```
-      fish code
-          VSCODE_IPC_HOOK_CLI=(tmux show-environment | grep "VSCODE_IPC_HOOK_CLI" | cut -d"=" -f 2) /usr/local/bin/code $argv
-      end
-      ```
-
+```fish
+function code
+    VSCODE_IPC_HOOK_CLI=(tmux show-environment | grep "VSCODE_IPC_HOOK_CLI" | cut -d"=" -f 2) /usr/local/bin/code $argv
+end
+```
+解释：
+替换默认的`code`命令，在每次执行这个命令时，自动从环境中获取最新的`VSCODE_IPC_HOOK_CLI`值
