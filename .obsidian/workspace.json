@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vscode-and-tmux.md",
+                "file": "2018-03-05-ssh-port-forwarding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "vscode-and-tmux"
+              "title": "2018-03-05-ssh-port-forwarding"
             }
           }
         ],
@@ -177,10 +177,11 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "81eb3be5faf23f01",
+  "active": "593cc3ff4711244a",
   "lastOpenFiles": [
-    "Untitled 1.base",
+    "2017-12-19-ssh-tips.md",
     "vscode-and-tmux.md",
+    "Untitled 1.base",
     "2025-01-29 Python uv.md",
     "2025-08-07 git for large repos.md",
     "interestingthings.md",
