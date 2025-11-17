@@ -50,9 +50,21 @@
               "icon": "lucide-file",
               "title": "2018-03-05-ssh-port-forwarding"
             }
+          },
+          {
+            "id": "59897c0de6677415",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -177,9 +189,13 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "593cc3ff4711244a",
+  "active": "59897c0de6677415",
   "lastOpenFiles": [
     "2017-12-19-ssh-tips.md",
+    "2025-02-05 Python context manager.md",
+    "2025-09-21 PyTorch Linear Layer.md",
+    "2025-10-13 Deep Dive - Click, NiceGUI, and Uvicorn Reload Mode.md",
+    "2018-03-05-ssh-port-forwarding.md",
     "vscode-and-tmux.md",
     "Untitled 1.base",
     "2025-01-29 Python uv.md",
@@ -190,13 +206,10 @@
     "Untitled.md",
     "Untitled.base",
     "2025-09-19 pdf2zh.md",
-    "2025-09-21 PyTorch Linear Layer.md",
     "Learn PyTorch.md",
-    "2025-10-13 Deep Dive - Click, NiceGUI, and Uvicorn Reload Mode.md",
     "2025-09-24 Understanding Process Termination.md",
     "2025-02-19 Disable press-and-hold key on Mac.md",
     "2025-02-18 Stop MacOS from creating .DS_Store files.md",
-    "2025-02-05 Python context manager.md",
     "2025-02-04 css height.md",
     "2025-01-31-alist-webdav.md",
     "2025-01-31 pan.baidu API.md",
@@ -206,7 +219,6 @@
     "books/README.md",
     "books/SUMMARY.md",
     "books/快速阅读术.md",
-    "2018-03-05-ssh-port-forwarding.md",
     "Pasted image 20250219064413.png"
   ]
 }
