@@ -69,28 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-11-18 functools.partial vs. lambda - The Critical Difference in Variable Binding.md",
+                "file": "2025-09-24 Understanding Process Termination.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-11-18 functools.partial vs. lambda - The Critical Difference in Variable Binding"
-            }
-          },
-          {
-            "id": "d5612f6cdd6f1f4c",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.6"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "title": "2025-09-24 Understanding Process Termination"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -215,7 +203,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d5612f6cdd6f1f4c",
+  "active": "d812699f79823f0d",
   "lastOpenFiles": [
     "2025-11-18 functools.partial vs. lambda - The Critical Difference in Variable Binding.md",
     "2017-12-19-ssh-tips.md",
