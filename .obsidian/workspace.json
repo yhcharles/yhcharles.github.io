@@ -77,8 +77,7 @@
               "title": "2025-09-24 Understanding Process Termination"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -203,8 +202,9 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "d812699f79823f0d",
+  "active": "eb7e47462ea287ce",
   "lastOpenFiles": [
+    "2025-09-24 Understanding Process Termination.md",
     "2025-11-18 functools.partial vs. lambda - The Critical Difference in Variable Binding.md",
     "2017-12-19-ssh-tips.md",
     "2025-02-05 Python context manager.md",
@@ -222,7 +222,6 @@
     "Untitled.base",
     "2025-09-19 pdf2zh.md",
     "Learn PyTorch.md",
-    "2025-09-24 Understanding Process Termination.md",
     "2025-02-19 Disable press-and-hold key on Mac.md",
     "2025-02-18 Stop MacOS from creating .DS_Store files.md",
     "2025-02-04 css height.md",
