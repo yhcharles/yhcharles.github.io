@@ -24,6 +24,18 @@
             }
           },
           {
+            "id": "0b72a47dbb9b6222",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.4"
+            }
+          },
+          {
             "id": "2431caf284c858dd",
             "type": "leaf",
             "state": {
@@ -77,7 +89,8 @@
               "title": "2025-09-24 Understanding Process Termination"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,7 +215,7 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "eb7e47462ea287ce",
+  "active": "0b72a47dbb9b6222",
   "lastOpenFiles": [
     "2025-09-24 Understanding Process Termination.md",
     "2025-11-18 functools.partial vs. lambda - The Critical Difference in Variable Binding.md",
