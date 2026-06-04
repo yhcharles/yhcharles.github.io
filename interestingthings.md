@@ -13,7 +13,8 @@
 * finicky: https://github.com/johnste/finicky, allows you to set up rules that decide which browser is opened for every url
 * mos: https://mos.caldis.me/ smooth scrolling
 * boring notch: https://github.com/TheBoredTeam/boring.notch, macbook notch enhancement
-## Python Packages
+* taskbar: https://lawand.io/taskbar/ taskbar (like Windows) for macOS
+## Python Packages 
 - [PyXA](https://skaplanofficial.github.io/PyXA/index.html): Python for Automation is a wrapper around Apple’s Scripting Bridge framework that enables AppleScript- and JXA-like control over macOS applications from within Python.
 * menuscript: [https://github.com/mubranch/menuscript](https://github.com/mubranch/menuscript), run any Python script from the menubar
 * rumps: [https://rumps.readthedocs.io/en/latest/index.html](https://rumps.readthedocs.io/en/latest/index.html), a Python library to create statusbar apps
