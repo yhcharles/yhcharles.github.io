@@ -71,24 +71,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2026-06-10 vscode tunnel.md",
+                "file": "2025-10-13 Deep Dive - Click, NiceGUI, and Uvicorn Reload Mode.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2026-06-10 vscode tunnel"
-            }
-          },
-          {
-            "id": "59897c0de6677415",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.10.3"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "title": "2025-10-13 Deep Dive - Click, NiceGUI, and Uvicorn Reload Mode"
             }
           },
           {
@@ -97,16 +85,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025-09-24 Understanding Process Termination.md",
+                "file": "vscode-and-tmux.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-24 Understanding Process Termination"
+              "title": "vscode-and-tmux"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -138,7 +126,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tmux",
+                "query": "vscode tmux",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -159,7 +147,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -231,24 +220,24 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "3a2fcbd1e8b41edb",
+  "active": "d812699f79823f0d",
   "lastOpenFiles": [
-    "interestingthings.md",
+    "SUMMARY.md",
     "2026-06-10 vscode tunnel.md",
+    "2025-09-24 Understanding Process Termination.md",
+    "2025-10-13 Deep Dive - Click, NiceGUI, and Uvicorn Reload Mode.md",
+    "interestingthings.md",
     "2026-05-22 iTerm2 auto profile switching.md",
     "2025-11-18 functools.partial vs. lambda - The Critical Difference in Variable Binding.md",
     "2018-03-05-ssh-port-forwarding.md",
-    "2025-09-24 Understanding Process Termination.md",
     "2017-12-19-ssh-tips.md",
     "2025-02-05 Python context manager.md",
     "2025-09-21 PyTorch Linear Layer.md",
-    "2025-10-13 Deep Dive - Click, NiceGUI, and Uvicorn Reload Mode.md",
     "vscode-and-tmux.md",
     "Untitled 1.base",
     "2025-01-29 Python uv.md",
     "2025-08-07 git for large repos.md",
     "README.md",
-    "SUMMARY.md",
     "Untitled.md",
     "Untitled.base",
     "2025-09-19 pdf2zh.md",
