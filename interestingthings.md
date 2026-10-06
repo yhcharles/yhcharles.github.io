@@ -16,6 +16,7 @@
 * taskbar: https://lawand.io/taskbar/ taskbar (like Windows) for macOS
 * hammerspoon: scriptable macOS customization tool, very powerful
 * Docky: https://www.getdocky.com/ better Dock
+* Topit: https://github.com/lihaoyun6/Topit pin any window on top
 ## Python Packages 
 - [PyXA](https://skaplanofficial.github.io/PyXA/index.html): Python for Automation is a wrapper around Apple’s Scripting Bridge framework that enables AppleScript- and JXA-like control over macOS applications from within Python.
 * menuscript: [https://github.com/mubranch/menuscript](https://github.com/mubranch/menuscript), run any Python script from the menubar
