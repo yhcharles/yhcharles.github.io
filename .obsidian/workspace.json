@@ -43,12 +43,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "interestingthings.md",
+                "file": "2026-10-16 深入理解 Python GIL.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "interestingthings"
+              "title": "2026-10-16 深入理解 Python GIL"
             }
           }
         ],
@@ -86,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "applescript",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,8 +107,7 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,9 +181,13 @@
   },
   "active": "4b3a1b7a9464eb74",
   "lastOpenFiles": [
+    "Untitled.base",
+    "Untitled 1.base",
+    "Untitled.md",
+    "2026-10-16 深入理解 Python GIL.md",
+    "interestingthings.md",
     "2026-08-31 弱符号与动态链接：当两个互不知情的 .so 用了同一个符号名字.md",
     "2026-06-10 vscode tunnel.md",
-    "interestingthings.md",
     "2025-11-18 functools.partial vs. lambda - The Critical Difference in Variable Binding.md",
     "2025-10-13 Deep Dive - Click, NiceGUI, and Uvicorn Reload Mode.md",
     "vscode-and-tmux.md",
@@ -195,12 +198,9 @@
     "2017-12-19-ssh-tips.md",
     "2025-02-05 Python context manager.md",
     "2025-09-21 PyTorch Linear Layer.md",
-    "Untitled 1.base",
     "2025-01-29 Python uv.md",
     "2025-08-07 git for large repos.md",
     "README.md",
-    "Untitled.md",
-    "Untitled.base",
     "2025-09-19 pdf2zh.md",
     "Learn PyTorch.md",
     "2025-02-19 Disable press-and-hold key on Mac.md",
@@ -208,8 +208,6 @@
     "2025-02-04 css height.md",
     "2025-01-31-alist-webdav.md",
     "2025-01-31 pan.baidu API.md",
-    "2025-09-24 light & fire.md",
-    "2018-04-25-python-GUI.md",
     "Pasted image 20250219064413.png"
   ]
 }
